@@ -1,0 +1,27 @@
+MIT License with Non-Closed Derivatives and Attribution Clause (MIT-NDCL v1.0)
+
+Copyright (c) 2025 Alessandro Mesti (https://github.com/alessandrome)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to use,
+copy, modify, merge, publish, distribute, and/or sublicense the Software,
+including for commercial purposes, subject to the following conditions:
+
+1. Attribution:
+You must give appropriate credit to the original author, provide a link to this license, and indicate if changes were made. A reference to the original repository (https://github.com/alessandrome/PyCMC) must be included in any distributed or derivative work.
+
+2. Same License for Derivatives:
+Any derivative works must be released under this same license (MIT-NDCL v1.0). You may not relicense any part of this Software or its derivatives under a different license.
+
+3. Commercial Use of Derivatives:
+Commercial use of the original (unmodified) Software is permitted, provided attribution is given.
+
+However, if you modify the Software and intend to use the modified version in any commercial context (including Software-as-a-Service or as part of a commercial product or offering), you must first:
+   - Publish the complete source code of the modified version under this same license (MIT-NDCL v1.0);
+   - Provide clear attribution to the original author;
+   - Make the modified version freely available to the public.
+
+4. No Closed-Source Commercial Derivatives:
+You may not distribute or use modified versions of the Software in any commercial context without making the full source code of those modifications publicly available under the same license. Commercial distribution of modified versions as proprietary or paid-only software is strictly prohibited.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
