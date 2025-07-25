@@ -1,3 +1,4 @@
+from datetime import datetime
 from dataclasses import dataclass
 from typing import Optional, List
 from decimal import Decimal
@@ -45,3 +46,15 @@ class CryptoInfo(APIModel):
     self_reported_tags: Optional[List[str]]
     infinite_supply: bool
     urls: Urls
+
+class CryptoAirdrop(APIModel):
+    id: int
+    project_name: str
+    description: str
+    status: str
+    coin: object # TODO create specific class
+    start_date: datetime
+    end_date: datetime
+    total_prize: int
+    winner_count: int
+    link: str
