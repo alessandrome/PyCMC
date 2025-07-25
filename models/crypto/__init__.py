@@ -64,3 +64,6 @@ class CryptoAirdrop(APIModel):
     total_prize: int
     winner_count: int
     link: str
+
+class CryptoCategory(APIModel):
+    pass
