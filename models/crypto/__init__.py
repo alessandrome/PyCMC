@@ -47,12 +47,18 @@ class CryptoInfo(APIModel):
     infinite_supply: bool
     urls: Urls
 
+class CryptoAirdropCoin(APIModel):
+    id: int
+    name: str
+    slug: str
+    symbol: str
+
 class CryptoAirdrop(APIModel):
     id: int
     project_name: str
     description: str
     status: str
-    coin: object # TODO create specific class
+    coin: CryptoAirdropCoin
     start_date: datetime
     end_date: datetime
     total_prize: int
