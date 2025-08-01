@@ -28,7 +28,7 @@ class Urls(APIModel):
 
 
 @dataclass
-class CryptoInfo(APIModel):
+class CryptoCoin(APIModel):
     id: int
     name: str
     symbol: str
@@ -45,7 +45,7 @@ class CryptoInfo(APIModel):
     self_reported_market_cap: Optional[Decimal]
     self_reported_tags: Optional[List[str]]
     infinite_supply: bool
-    urls: Urls
+    urls: Optional[Urls]
 
 class CryptoAirdropCoin(APIModel):
     id: int
@@ -65,5 +65,19 @@ class CryptoAirdrop(APIModel):
     winner_count: int
     link: str
 
-class CryptoCategory(APIModel):
+class CryptoCategoryCoin(APIModel):
     pass
+
+class CryptoCategory(APIModel):
+    id: str
+    name: str
+    title: str
+    description: str
+    num_tokens: int
+    avg_price_change: Decimal
+    market_cap: Decimal
+    market_cap_change: Decimal
+    volume: Decimal
+    volume_change: Decimal
+    # coins: List[]
+    last_updated: datetime

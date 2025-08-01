@@ -21,5 +21,5 @@ class Cryptocurrency:
         data = http_response['data']
         result = Result(status, {})
         for k, el in data:
-            result.data[int(k)] = crypto.CryptoInfo.from_api_response(el)
+            result.data[int(k)] = crypto.CryptoCoin.from_api_response(el)
         return result, http_response
